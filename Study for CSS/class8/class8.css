@@ -1,0 +1,14 @@
+a {
+    display: block;
+    background-color: rgb(59, 59, 59);
+    width: 230px;
+    height: 40px;
+    text-decoration: none;
+    color: rgb(252, 249, 249);
+    text-indent: 2em;
+    line-height: 40px;
+}
+
+a:hover {
+    background-color: rgb(240, 120, 23);
+}
