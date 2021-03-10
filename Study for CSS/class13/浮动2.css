@@ -1,0 +1,62 @@
+ /* 父级添加after伪元素 清除浮动 */
+ /* .clearfix:after {
+     content: "";
+     display: block;
+     height: 0;
+     clear: both;
+     visibility: hidden;
+ }
+ 
+ .clearfix {
+     //IE6、7 专有
+     *zoom: 1;
+ } */
+ /* 父级添加双伪元素 清除浮动 */
+ 
+ .clearfix:before,
+ .clearfix:after {
+     content: "";
+     display: table;
+ }
+ 
+ .clearfix:after {
+     clear: both;
+ }
+ 
+ .clearfix {
+     *zoom: 1;
+ }
+ 
+ .box {
+     /* 父级添加 overflow 属性 清除浮动 */
+     /* overflow: hidden; */
+     width: 1200px;
+     background: rgb(230, 240, 194);
+     margin: auto;
+ }
+ 
+ .black {
+     width: 1200px;
+     height: 500px;
+     background: rgb(8, 8, 8);
+     margin: auto;
+     color: rgb(252, 252, 252);
+ }
+ 
+ .menu {
+     float: left;
+     width: 230px;
+     height: 460px;
+     background-color: rgb(151, 243, 220);
+ }
+ 
+ .content {
+     float: left;
+     width: 970px;
+     height: 460px;
+     background-color: rgb(164, 212, 240);
+ }
+ /* 额外标签法清除浮动 */
+ /* .clear {
+    clear: both;
+} */
