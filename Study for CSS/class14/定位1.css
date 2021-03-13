@@ -1,0 +1,46 @@
+body {
+    height: 2000px;
+}
+
+.nav {
+    z-index: 100;
+    position: sticky;
+    top: 0;
+    width: 800px;
+    height: 50px;
+    background-color: rgb(203, 192, 250);
+    margin: 50px auto;
+}
+
+.box1 {
+    position: relative;
+    top: 200px;
+    left: 200px;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(230, 238, 188);
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(243, 212, 240);
+}
+
+.son {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(200, 228, 241);
+}
+
+.gd {
+    position: fixed;
+    width: 400px;
+    height: 400px;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(162, 196, 163);
+}
