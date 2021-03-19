@@ -1,0 +1,35 @@
+video {
+    margin: 100px 100px;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* 图像模糊 */
+
+.mika {
+    filter: blur(10px);
+}
+
+.mika:hover {
+    filter: blur(0px);
+}
+
+
+/* 过渡 */
+
+.guodu {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(196, 240, 243);
+    /* transition: width .5s, height .5s; */
+    transition: all 1s;
+}
+
+.guodu:hover {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(133, 135, 228);
+}
