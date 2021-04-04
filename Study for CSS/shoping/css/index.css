@@ -1,0 +1,367 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?164i46');
+    src: url('../fonts/icomoon.eot?164i46#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?164i46') format('truetype'), url('../fonts/icomoon.woff?164i46') format('woff'), url('../fonts/icomoon.svg?164i46#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+
+/* main */
+
+.main {
+    width: 980px;
+    height: 455px;
+    margin-top: 10px;
+    margin-left: 220px;
+}
+
+.focus {
+    float: left;
+    width: 721px;
+    height: 455px;
+}
+
+.newflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+
+.news {
+    height: 165px;
+    /* background-color: #e97b7b; */
+}
+
+.news-hd {
+    height: 33px;
+    line-height: 33px;
+    border: 1px solid #e4e4e4;
+    border-bottom: 1px dotted #e4e4e4;
+}
+
+.news-hd h5 {
+    float: left;
+    font-size: 14px;
+    margin-left: 18px;
+}
+
+.news-hd a {
+    float: right;
+}
+
+.news-hd a::after {
+    font-family: 'icomoon';
+    content: '\ea51';
+}
+
+.news-bd {
+    height: 132px;
+    border: 1px solid #e4e4e4;
+    /* border-top: none; */
+}
+
+.news-bd ul li a {
+    /* color: #666; */
+    font-size: 12px;
+    padding-left: 16px;
+    line-height: 26px;
+}
+
+.lifeservice {
+    overflow: hidden;
+    height: 209px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+}
+
+.lifeservice ul {
+    width: 252px;
+}
+
+.lifeservice ul li {
+    float: left;
+    width: 63px;
+    height: 70px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.lifeservice ul li a {
+    text-align: center;
+}
+
+.lifeservice ul li a i {
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin: 14px 20px 10px;
+}
+
+.huafei {
+    background: url(../images/lifeservice.png) no-repeat -20px -14px;
+}
+
+.jipiao {
+    background: url(../images/lifeservice.png) no-repeat -82px -14px;
+}
+
+.dianyingpiao {
+    background: url(../images/lifeservice.png) no-repeat -144px -14px;
+}
+
+.youxi {
+    background: url(../images/lifeservice.png) no-repeat -208px -14px;
+}
+
+.caipiao {
+    background: url(../images/lifeservice.png) no-repeat -20px -86px;
+}
+
+.jiayouka {
+    background: url(../images/lifeservice.png) no-repeat -82px -86px;
+}
+
+.jiudian {
+    background: url(../images/lifeservice.png) no-repeat -146px -86px;
+}
+
+.huochepiao {
+    background: url(../images/lifeservice.png) no-repeat -208px -86px;
+}
+
+.zongchou {
+    background: url(../images/lifeservice.png) no-repeat -20px -158px;
+}
+
+.licai {
+    background: url(../images/lifeservice.png) no-repeat -82px -158px;
+}
+
+.lipinka {
+    background: url(../images/lifeservice.png) no-repeat -146px -158px;
+}
+
+.baitiao {
+    background: url(../images/lifeservice.png) no-repeat -208px -158px;
+}
+
+.bargain img {
+    margin-top: 6px;
+}
+
+
+/* recom */
+
+.recom {
+    height: 165px;
+    margin-top: 12px;
+    background-color: rgb(192, 107, 107);
+}
+
+.recom-hd {
+    float: left;
+    width: 206px;
+    height: 165px;
+    /* padding: 30px 68px 10px; */
+    padding-top: 30px;
+    background-color: #5c5251;
+}
+
+.recom-hd i {
+    display: block;
+    width: 57px;
+    height: 57px;
+    margin: 0 74px 10px;
+    background: url(../images/recom.png) no-repeat;
+}
+
+.recom-hd p {
+    font-size: 18px;
+    color: #dbdada;
+    text-align: center;
+}
+
+.recom-bd {
+    float: left;
+    width: 994px;
+    height: 165px;
+    background-color: #ebebeb;
+}
+
+.recom-bd ul li {
+    position: relative;
+    float: left;
+}
+
+.recom-bd ul li img {
+    width: 248px;
+    height: 163px;
+}
+
+.recom-bd ul li:nth-child(-n+3):after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 1px;
+    height: 145px;
+    background-color: #ddd;
+}
+
+
+/* guess */
+
+.guess {
+    height: 262px;
+    margin-top: 30px;
+}
+
+.guess-hd {
+    height: 30px;
+    line-height: 30px;
+}
+
+.guess-hd h4 {
+    float: left;
+    font-size: 18px;
+    color: #333;
+}
+
+.guess-hd a {
+    float: right;
+    margin-right: 20px;
+    font-size: 12px;
+}
+
+.guess-hd a::after {
+    content: '\ea2e';
+    font-family: 'icomoon';
+    font-size: 12px;
+    color: #666;
+    margin-left: 9px;
+}
+
+.guess-bd {
+    height: 232px;
+    border: 1px solid #ededed;
+}
+
+.guess-bd ul {
+    width: 1200px;
+}
+
+.guess-bd ul li {
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 232px;
+}
+
+.guess-bd ul li:nth-child(-n+5):after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 160px;
+    width: 1px;
+    height: 62px;
+    background-color: #ddd;
+}
+
+.guess-bd ul li h4 {
+    width: 200px;
+    height: 160px;
+    line-height: 160px;
+    text-align: center;
+}
+
+.guess-bd ul li p,
+h3 {
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.guess-bd ul li p {
+    height: 34px;
+    font-size: 12px;
+}
+
+.guess-bd ul li h3 {
+    font-size: 18px;
+    color: #df3033;
+}
+
+
+/* floor 家用电器*/
+
+.floor .w {
+    margin-top: 30px;
+}
+
+.box-hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+
+.box-hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: normal;
+}
+
+.box-hd .tab_list {
+    float: right;
+    line-height: 30px;
+}
+
+.box-hd .tab_list ul li {
+    float: left;
+}
+
+.box-hd .tab_list ul li a {
+    padding: 0 15px;
+}
+
+.box-bd {
+    height: 361px;
+}
+
+.tab_list_item>div {
+    float: left;
+    height: 361px;
+}
+
+.tab_list_item>div a {
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
+
+.col_210 {
+    width: 210px;
+    background-color: #f9f9f9;
+}
+
+.col_210 ul li {
+    float: left;
+    width: 85px;
+    height: 34px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 33px;
+    margin-left: 14px;
+}
+
+.col_329 {
+    width: 329px;
+}
+
+.col_221 {
+    width: 221px;
+    border-right: 1px solid #ccc;
+}
+
+.col_219 {
+    width: 219px;
+}
